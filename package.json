@@ -1,0 +1,23 @@
+{
+  "name": "travis-encrypt-cli",
+  "version": "0.1.0",
+  "description": "A lightweight Node alternative CLI to the official Ruby one that only does env var encryption",
+  "main": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icasdri/travis-encrypt-cli.git"
+  },
+  "keywords": [
+    "travis",
+    "encrypt"
+  ],
+  "author": "icasdri <icasdri@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icasdri/travis-encrypt-cli/issues"
+  },
+  "homepage": "https://github.com/icasdri/travis-encrypt-cli#readme",
+  "dependencies": {
+    "node-rsa": "^0.4.2"
+  }
+}
