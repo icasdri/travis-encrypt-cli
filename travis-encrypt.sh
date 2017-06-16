@@ -49,7 +49,7 @@ printf "Retrieving public key for repo '%s' ...\n" "$repo" 1>&2
 keymaterial=$(curl -s "https://api.travis-ci.org/repos/${repo}/key" | sed 's/{"key":"\([^"]\+\)".*/\1/; s/\\n/\n/g;')
 
 if [ "$(echo "$keymaterial" | head -c 1)" = '{' ]; then
-    printf "INTERNAL ERROR: failed to parse out private key from json\n" 1>&2
+    printf "INTERNAL ERROR: failed to parse out public key from json\n" 1>&2
     exit 3
 fi
 
