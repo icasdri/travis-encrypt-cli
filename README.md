@@ -1,7 +1,7 @@
 # travis-encrypt-cli
 A lightweight alternative to the official Travis Ruby CLI that only does env var encryption
 
-It's just a basic (hopefully portable) shell script, `travis-encrypt.sh`. Simply download and run it. A POSIX shell `sh` (`bash`, `ksh`, etc. should all do), `openssl`, and `sed` are required.
+`travis-encrypt.sh` is just a basic (hopefully portable) shell script. Simply download and run it, making sure you have a POSIX `sh` (`bash`, `ksh`, `tcsh`, `zsh`, etc.), `openssl`, `curl`, and `sed`.
 
 **Examples**:
 
